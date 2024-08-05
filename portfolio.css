@@ -247,7 +247,7 @@ form input,form textarea{
     display: none;
 }
 /*----for responsive------*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 786px){
     .hero-section{
         width: 100%;
         font-size: 1rem;
