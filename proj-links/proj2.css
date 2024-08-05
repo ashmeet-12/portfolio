@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.navbar{
+    /* background-color: blueviolet; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.85rem;
+    font-weight: 500;
+    justify-content: space-between;
+    /* margin: 20px;
+    margin-top: 40px; */
+    padding: 20px 40px;
+}
+.logo{
+    height: 4.5rem;
+    width: 4.5rem;
+    /* margin-left: 40px; */
+    background-image: url("https://i.pinimg.com/474x/99/ed/e1/99ede1573c84592d819c7f4fd32fa9e0.jpg");
+    background-size: cover;
+
+}
+.nav-i{
+    margin-right: 30px;
+    color: rgb(66, 66, 66);
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    
+}
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.intro{
+    margin-left: 60px;
+    margin-top: 80px;
+}
+.heading{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.content{
+    margin-top: 30px;
+    width: 40%;
+}
+.join-button{
+    margin-left: 60px;
+    margin-top: 30px;
+    border-radius:40%;
+}
+.join-button button{
+    height: 40px;
+    width: 150px;
+    font-size: 1rem;
+    background-color: rgb(3, 173, 116);
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 20px;
+}
+.join-button a{
+    text-decoration: none;
+    color: white;
+}
+.bottom-buttons{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.dot{
+    height: 12px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: rgb(3, 173, 116);
+    margin-right: 15px;
+}
+.b1{
+    opacity: 1;
+}
+.b2{
+    opacity: 0.75;
+}
+.b3{
+    opacity: 0.5;
+}
+.b4{
+    opacity: 0.25;
+}
+
+@media (max-width:786px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.5rem;
+    }    
+    .nav-i{
+        margin-right: 20px;
+    }
+    .intro{
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .content{
+        width: 80%;
+    }
+    .join-button{
+        margin-left: 20px;
+    }
+    .bottom-buttons{
+        margin-left: 20px;
+    }
+}
+
+@media (max-width:480px) {
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.25rem;
+    }    
+    .nav-i{
+        margin-right: 10px;
+    }
+    .intro{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    .content{
+        width: 90%;
+    }
+    .join-button{
+        margin-left: 10px;
+    }
+    .join-button button{
+        width: 100px;
+        font-size: 0.875rem;
+    }
+    .bottom-buttons{
+        margin-left: 10px;
+    }
+}
