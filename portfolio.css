@@ -385,8 +385,8 @@ form input,form textarea{
         margin-left: 0px;
     }
     .proj{
-        position: relative;
-        left: -4.5rem;
+        position: absolute;
+        left: -2.5rem;
     }
     .p2{
         margin-left: -20px;
