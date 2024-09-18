@@ -358,9 +358,6 @@ form input,form textarea{
         padding-top: 60px;
         width: 100vw;
         text-align: center;
-        position: relative;
-        left: -2.5rem;
-
     }
     .proj img{
         height: 240px;
@@ -387,10 +384,10 @@ form input,form textarea{
      .proj a{
         margin-left: 0px;
     }
-    /* .proj{
+    .proj{
         position: relative;
         left: -2.5rem;
-    } */
+    }
     .p2{
         margin-left: -20px;
     }
