@@ -6,7 +6,7 @@
 }
 body{
     background-color: #222725;
-    color: #899878;
+    color: rgb(158, 105, 158);;
     background-image: url(./assets/bck.jpg);
     background-size: cover;
     padding: 20px 50px 20px 50px;
@@ -24,7 +24,7 @@ body{
 }
 .components{
     text-decoration: none;
-    color: #899878;
+    color: rgb(158, 105, 158);;
     font-size: 1.5rem;
     font-weight: 600;
     position: relative;
@@ -33,7 +33,7 @@ body{
     content: '';
     width: 0;
     height: 3px;
-    background: #edefc9;
+    background: pink;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -61,7 +61,7 @@ header ul li{
     transition: 2s;
 }
 .hero-section span{
-    color: #f0f4ac;
+    color: pink;
 }
 .hero-msg{
     width: 60%;
@@ -76,10 +76,10 @@ header ul li{
     background-image: url(./assets/pp.jpg);
     background-size: cover;
     background-position: center;
-    border: 4px solid #899878;
+    border: 4px solid #edefc9;
 }
 .profile-pic:hover{
-    border: 10px solid #899878;
+    border: 10px solid #edefc9;
 }
 #about{
     padding: 80px 0;
@@ -260,7 +260,7 @@ form input,form textarea{
         border-radius: 50%;
         background-color: aliceblue;
         margin-top:4% ;
-        background-image: url(pp.jpg);
+        background-image: url(./assets/pp.jpg);
         background-size: cover;
         background-position: center;
         border: 4px solid #899878;
@@ -270,7 +270,7 @@ form input,form textarea{
         left: 20vw;
     }
     .head-left{
-        font-size: 1..3rem;
+        font-size: 1.3rem;
         font-weight: 900;
     }
     .hero-msg{
