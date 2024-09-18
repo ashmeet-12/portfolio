@@ -384,10 +384,10 @@ form input,form textarea{
      .proj a{
         margin-left: 0px;
     }
-    /* .proj{
+    .proj{
         position: relative;
-        left: -40px;
-    } */
+        left: -2.5rem;
+    }
     .p2{
         margin-left: -20px;
     }
