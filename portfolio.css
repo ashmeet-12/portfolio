@@ -6,7 +6,7 @@
 }
 body{
     background-color: #222725;
-    color: rgb(158, 105, 158);;
+    color: #899878;
     background-image: url(./assets/bck.jpg);
     background-size: cover;
     padding: 20px 50px 20px 50px;
@@ -24,7 +24,7 @@ body{
 }
 .components{
     text-decoration: none;
-    color: rgb(158, 105, 158);;
+    color: #899878;
     font-size: 1.5rem;
     font-weight: 600;
     position: relative;
@@ -33,7 +33,7 @@ body{
     content: '';
     width: 0;
     height: 3px;
-    background: pink;
+    background: #edefc9;
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -61,7 +61,7 @@ header ul li{
     transition: 2s;
 }
 .hero-section span{
-    color: pink;
+    color: #f0f4ac;
 }
 .hero-msg{
     width: 60%;
