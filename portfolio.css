@@ -357,6 +357,7 @@ form input,form textarea{
     #projects{
         padding-top: 60px;
         width: 100vw;
+        text-align: center;
     }
     .proj img{
         height: 240px;
